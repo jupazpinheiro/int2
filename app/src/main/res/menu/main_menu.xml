@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/pessoal"
+            android:icon="@drawable/ic_person"
+            android:title="Informações Pessoais"/>
+        <item
+            android:id="@+id/formacao"
+            android:icon="@drawable/ic_book"
+            android:title="Formação"/>
+        <item
+            android:id="@+id/profissional"
+            android:icon="@drawable/ic_bag"
+            android:title="Experiência Profissional"/>
+        <item
+            android:id="@+id/cursos"
+            android:icon="@drawable/ic_library"
+            android:title="Cursos"/>
+        <item
+            android:id="@+id/publi"
+            android:icon="@drawable/ic_public"
+            android:title="Publicações"/>
+    </group>
+</menu>
